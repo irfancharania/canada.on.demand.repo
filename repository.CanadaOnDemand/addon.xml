@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.CanadaOnDemand" name="CanadaOnDemand Repo" version="1.0" provider-name="andrepl">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.CanadaOnDemand" name="CanadaOnDemand Repo" version="1.0" provider-name="andre">
 	<extension point="xbmc.addon.repository" name="CanadaOnDemand Repo">
 		<info compressed="false">https://github.com/irfancharania/canada.on.demand.repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/irfancharania/canada.on.demand.repo/raw/master/addons.xml.md5</checksum>

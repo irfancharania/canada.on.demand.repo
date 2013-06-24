@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.CanadaOnDemand" name="CanadaOnDemand Repo" version="1.0" provider-name="andrepl">
+<addon id="plugin.video.canada.on.demand" name="Canada On Demand" version="0.8.0" provider-name="andre">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.beautifulsoup"	version="3.2.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Video On Demand From Canada</summary>
+    <description>Stream content from tons of Canadian providers including CTV, CBC, TSN, Global and MANY More!</description>
+    <platform>all</platform>
+    <disclaimer></disclaimer>
+  </extension>
+</addon>
+
+<addon id="repository.CanadaOnDemand" name="CanadaOnDemand Repo" version="1.0" provider-name="andre">
 	<extension point="xbmc.addon.repository" name="CanadaOnDemand Repo">
 		<info compressed="false">https://github.com/irfancharania/canada.on.demand.repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/irfancharania/canada.on.demand.repo/raw/master/addons.xml.md5</checksum>
