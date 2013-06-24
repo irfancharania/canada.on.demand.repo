@@ -1,0 +1,34 @@
+This is a repo for the Canada On Demand plugin:
+http://forum.xbmc.org/showthread.php?p=754856
+
+It will make it easier to auto-update as new versions roll out
+
+-------------------------------------------------
+
+`Canada On Demand` is an XBMC Video Plugin for streaming
+live and pre-recorded content from Canadian websites.
+
+This version is a fork of the andrepl's original version. Many
+non-working stations have been removed.
+
+Supported channels
+- Business News Network
+- Bravo!
+- CBC
+- Comedy
+- CPAC
+- CTV
+- Discovery
+- DIY Network
+- Fashion
+- Food Network
+- Global
+- HGTV
+- History
+- Showcase
+- Slice
+- Space
+- Tou.tv
+- TSN
+- TVO Kids
+- TVtropolis
