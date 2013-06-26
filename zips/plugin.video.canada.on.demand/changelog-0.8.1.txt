@@ -1,3 +1,6 @@
+0.8.1 - Added icons for Lifetime & ActionTV
+      - Updated Showcase to show episodes in categories with children
+
 0.8.0 - Added Lifetime Canada, ActionTV
       - Updated History, Food Network
 
