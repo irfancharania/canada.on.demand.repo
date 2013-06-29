@@ -1,3 +1,6 @@
+0.8.2 - Fixed TSN
+      - Removed non-working channels till fixed (CPAC, YTV, Treehouse, Tou.TV)
+
 0.8.1 - Added icons for Lifetime & ActionTV
       - Updated Showcase to show episodes in categories with children
 
