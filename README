@@ -3,6 +3,12 @@ http://forum.xbmc.org/showthread.php?p=754856
 
 It will make it easier to auto-update as new versions roll out
 
+
+Versions are kept in line with the add-on from here:
+https://github.com/marius-muja/plugin.video.canada.on.demand
+
+Please post any issues in that github repository.
+
 -------------------------------------------------
 
 `Canada On Demand` is an XBMC Video Plugin for streaming
