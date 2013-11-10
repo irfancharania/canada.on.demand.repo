@@ -1,0 +1,152 @@
+0.8.5 - Fixed CBC
+
+0.8.4 - Increase timeout on page fetch
+
+0.8.3 - Added Nick Canada
+
+0.8.2 - Fixed TSN
+      - Removed non-working channels till fixed (CPAC, YTV, Treehouse, Tou.TV)
+
+0.8.1 - Added icons for Lifetime & ActionTV
+      - Updated Showcase to show episodes in categories with children
+
+0.8.0 - Added Lifetime Canada, ActionTV
+      - Updated History, Food Network
+
+0.7.9 - Fixed Canwest channels (GlobalTV/News, Slice, HGTV...)
+
+0.7.4 - Added setting to hide 'In Development' channels.
+
+0.7.3 - fixed CityTV Crash
+
+0.7.2 - Fixed Tou.TV Regression, refactored channels further.
+
+0.7.1 - cache duration configurable
+
+0.7.0 - Overhaul caching backend
+
+0.6.10 - Added experimental Muchmusic Jukebox feature.
+
+0.6.9 - Caching progress dialog added.
+
+0.6.8 - Fixed Caching bug in Aux.TV
+
+0.6.7 - Added bitrate auto-selection for brightcove channels
+
+0.6.6 - Added Aux.TV
+
+0.6.5 - Added TVO Kids.
+
+0.6.4 - Added Show Images to CityTV Channels and added "Shorts in the City" channel
+
+0.6.3 - Add plot and date to citytv full episodes
+
+0.6.2 - Added OLN, G4 and OMNI
+
+0.6.1 - Fixed a CityTV Bug which affected a handful of shows.
+
+0.6.0 - Fixed the brightcove backend. CityTV should now work 100%, marked as GOOD
+
+0.5.3 - Temp fix for broken CTV Bookmarks.
+
+0.5.2 - Lots of CityTV Improvements
+
+0.5.1 - version bump for testing
+
+0.5.0 - Added CityTV with a new 'BrightcoveBaseChannel'
+
+0.4.3 - fixed crash bug
+
+0.4.2 - Marked All CTV Channels as Good instead of Bad
+
+0.4.1 - Added CMT
+
+0.4.0 - Added a new Backend for CTV Channels.
+
+0.3.8 - Added support for XBMCs with awesome librtmp support
+      - removed the use_rtmp context menu entry, now we just use it
+        on the channels that it works for, if your librtmp isnt awesome
+
+0.3.7 - Improved sorting
+
+0.3.6 - added Family.ca [BAD] all streams appear to require type 9 handshake
+      - Fixed bookmark display name bug.
+
+0.3.5 - Added CPAC
+
+0.3.4 - Added new 'Maximum Bitrate' setting.
+        instead of listing the same episode in multiple bitrates,
+        we will now only list the highest bitrate that is still lower
+        than the max_bitrate setting. default is 9999kbps
+
+0.3.3 - Fixed crash(?)
+
+0.3.2 - Fixed missing shows on Tou.TV
+
+0.3.1 - set an icon for 'all channels'
+
+0.3.0 - Added a new 'Bookmarks' Feature.  Any folder in any channel can be "Bookmarked"
+        and easily accessed from the top level of the plugin.
+
+0.2.4 - Fixed TVTropolis & Showcase
+
+0.2.3 - Added Support for Tou.TV [Still has some unicode issues]
+
+0.2.2 - Fixed YTV And Treehouse Support
+      - Improved(?) CBC Support, but marked as Ugly,
+      - category/release listings aren't quite right.
+
+0.2.1 - 0.2.0 was completely broken. sorry :)
+
+0.2.0 - this is the first official release.
+      - Cleaned up some code
+      - reversed the order of the changelog :)
+
+
+0.1.11 - Added a setting 'Automatically Play All Clips' which eliminates the
+         'clip-level' listing for all channels and attempts to play all clips
+         as a single playlist. The setting is disabled by default and will only
+         work with XBMC svn r32470+.
+
+0.1.10 - Straightenend out the good/ugly/bad situation
+
+0.1.9 - Added CTV Local News.
+
+0.1.8 - Added Global BC which was overlooked in 0.1.7
+
+0.1.7 - Implemented in new, more flexible URLParser
+      - Defaulted CBC Channels to forced rtmp urls.
+        context menu item now switches it off.
+
+0.1.6 - added global news icon
+
+0.1.5 - Added Full Global News Support
+
+0.1.4 - Canwest channels now properly hide empty categories
+      - added context menu entry to queue video clips
+      - added plugin setting to hide channels which use
+        streams that are poorly supported.
+
+0.1.3 - new artwork
+
+0.1.2 - improved theplatform caching
+      - added force-rtmp option
+
+0.1.1 - YTV, TreehousTV classes(ThePlatformBase) with improvements to backend:
+      - removed the StoneSoup processing of Canwest XML responses and migrated to common &format=SMIL parsing ;
+      - folded action_browse_episode into base ThePlatform class (easier for maintenance..)
+
+0.1.0 - major: theplatformbase suprclass, CBC fix
+
+0.0.8 - added port number to http proxy settings
+
+0.0.7 - added (untested) http proxy support
+
+0.0.6 - Improved playback of with CBC and Canwest streams.
+
+0.0.5 - Fixed a big bad bug in 0.0.4 which broke all canwest channels.
+
+0.0.4 - added plugin settings support.
+      - fixed cbc regression
+
+0.0.3 - added A bunch of new channels.
