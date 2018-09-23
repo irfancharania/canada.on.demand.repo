@@ -1,4 +1,4 @@
-0.8.7 - Fixed Global News
+0.8.8 - Fixed Global News
 
 0.8.6 - Fixed CBC
 
